@@ -92,3 +92,9 @@ body {
   /* margin-bottom: 10px; */
   text-align: center;
 }
+
+.links a:hover {
+  background-color: var(--green);
+  color: var(--gray900);
+  transition: 0.4s;
+}
