@@ -98,3 +98,9 @@ body {
   color: var(--gray900);
   transition: 0.4s;
 }
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 250px;
+  }
+}
